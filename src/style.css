@@ -15,10 +15,15 @@
   outline-offset: 0.5rem;
   width: 200px;
 }
-.futureWeather {
+.weather-forecast {
   border-left: 2px solid black;
   list-style: none;
 }
+
+.ul {
+  list-style: none;
+}
+
 .emoji {
   margin: 0 auto;
 }
