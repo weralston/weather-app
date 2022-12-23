@@ -17,6 +17,7 @@
 }
 .weather-forecast {
   border-left: 2px solid black;
+  padding: 3rem;
   list-style: none;
 }
 
