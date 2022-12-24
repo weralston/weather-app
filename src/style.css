@@ -1,26 +1,57 @@
-.allApp {
-  outline: 5px solid gray;
-  border-radius: 2px;
-  font: bold 1rem sans-serif;
-  margin: 0.5rem;
-  outline-offset: 0.5rem;
-  width: fit-content;
-}
-.currentInfo {
-  border: 2px outset gray;
-  border-radius: 12px;
-  font: bold 1rem sans-serif;
-  margin: 4rem;
-  padding: 1rem;
-  outline-offset: 0.5rem;
-  width: 200px;
-}
-.weather-forecast {
-  border-left: 2px solid black;
-  padding: 3rem;
-  list-style: none;
+body {
+  font-family: arial, sans-serif;
+  background-color: aliceblue;
 }
 
-.emoji {
+.weather-app {
   margin: 0 auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.current-info {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #dadde1;
+  border-radius: 5px;
+  background-color: white;
+  width: 500px;
+
+  text-transform: capitalize;
+}
+
+.weather-status {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  float: right;
+}
+
+.humity-wind {
+  float: left;
+}
+ul {
+  margin: 0 auto;
+  list-style: none;
+  padding: 20px;
+  border-right: 1px solid #dadde1;
+  font-weight: bolder;
+}
+
+.weather-forecast {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.open-source {
+  margin: 0 auto;
+  padding: 0px;
+  float: left;
 }

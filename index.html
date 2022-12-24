@@ -21,8 +21,10 @@
     <link rel="stylesheet" href="src/style.css"/>
   </head>
   <body>
-    <div class="allApp">
       <div class="container">
+        <div class="weather-app">
+
+
 				<form class="search-form" id="search-form">
             <input
             type="search"
@@ -32,57 +34,61 @@
             id="city-input"
             class="form-control shadow-sm"
           />
-          <input type="submit" value="search">
-          <button
-          class="btn btn-success w-100"
-          id="current-location-button"
-        >
-          Current
-        </button>
-        <p class="currentCity"></p>
-        <div class="currentInfo">
+          <input type="submit" value="Search">
+
+          <div class="container">
+          <div class="current-info">
+    
 					<h1>
 					<h1 id="city">
-					
 					</h1>
-            <br />
-            <h2>
-                <h2 id="temperature"> 
-          </h2>
-          <p>
-             <a href id = "celsius-link">°C</a>
+            <h2> 
+                <h2 id="temperature">
+      </h2>
+          <a href id = "celsius-link">°C</a>
             | <a href id = "fahrenheit-link">°F</a></p>
           <p id="date">
-            <br />
-            02:57pm
           </p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <h3 id="description"></h3>
-            <br />
-            Humidity:  <span id="humidity"></span>%
-            <br />
-            Wind:  <span id="wind"></span>km/h
-     <img src="" alt="Clear" id="icon" class="float-left" />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
-              <div class="col-6">
-          <div class="weather-forecast" id="forecast"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-<p>
-  <a href="https://github.com/weralston/weather-app">Open souce code</a> by Wendy Ralston
-</p>
+       
+          <span id="weather-status">
+  <img src="" alt="Clear" id="icon" class="float-left" />
+ 
+  <h3 id="description"></h3>
 
+  </span>
+
+        </div>
+</div>
+
+
+          
+               
+        
+
+                 <div class="container">
+        <div class="humity-wind">
+          <ul>
+            <li> 
+              Humidity: <span id="humidity"></span>%</li> 
+           <li>  Wind:  <span id="wind"></span>km/h</li> 
+            </ul>
+         </div>
+
+
+
+          <div class="weather-forecast" id="forecast"></div>
     <script src="src/index.js"></script>
-  </body>
+        </div>
+   
+
+  <div class="container">
+        <div class="open-source">
+    <small>
+<a href="https://github.com/weralston/weather-app">Open souce code</a> by Wendy Ralston
+</small>
+</div>
+
+
+
+    </body>    
 </html>
