@@ -10,7 +10,7 @@ body {
   padding-right: 10px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background-color: aliceblue;
+  background-color: cornflowerblue;
 }
 
 .current-info {
@@ -35,19 +35,24 @@ body {
 
 .humity-wind {
   float: left;
+  padding-right: 25px;
 }
 ul {
   margin: 0 auto;
   list-style: none;
-  padding: 20px;
+  padding-top: 60px;
+  padding-left: 2px;
   border-right: 1px solid #dadde1;
   font-weight: bolder;
+  padding-right: 25px;
+  padding-bottom: 15px;
 }
 
 .weather-forecast {
   margin: 0 auto;
+  padding-left: 0px;
   padding-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .open-source {
